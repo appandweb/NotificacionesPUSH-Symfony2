@@ -1,0 +1,9 @@
+notificaciones:
+    resource: "@notificacionesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+### PAGINA PRINCIPAL ###
+  
+pagina_principal:
+  pattern: /
+  defaults: {_controller: notificacionesBundle:Principal:inicio}
